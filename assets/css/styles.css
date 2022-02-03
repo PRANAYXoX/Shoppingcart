@@ -1,0 +1,37 @@
+.house-head,.cos-head{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+}
+.house-body,.cos-body{
+    justify-content: left;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.co-box{
+    height: 80%;
+}
+.box{
+    display: inline-block;
+    width: 30vw;
+    border: 1px solid black;
+    height: 30vh;
+    margin: 10px;
+}
+.buy-stick{
+    position: relative;
+    height: 20%;
+}
+.buy-stick .fa{
+    font-size: 25px;
+    color:firebrick;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media only screen and (max-width:768px){
+    .box{
+        width: 90vw;
+    }
+}
